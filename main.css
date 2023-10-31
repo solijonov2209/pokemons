@@ -1,0 +1,62 @@
+.cardd{
+gap: 50px;
+}
+.card{
+  max-width: 300px;
+  width: 100%;
+  text-align:center;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+
+  
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn{
+  max-width: 100px;
+  width: 100%;
+  margin-top: 20px;
+}
+.weaknesses-list{
+  list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding-left: 0;
+}
+strong{
+  margin-right: 20px;
+}
+
+.weaknesses-list li{
+  padding:0px 5px;
+}
+.weaknesses-list li:nth-child(1){
+  background-color:orange;
+  border-radius: 3px;
+  /* width: 60px; */
+ 
+}
+.weaknesses-list li:nth-child(2){
+  background-color:rgb(9, 17, 84);
+  border-radius: 3px;
+  /* width: 50px; */
+  color:#fff;
+}
+.weaknesses-list li:nth-child(3){
+  background-color:rgb(3, 118, 30);
+  border-radius: 3px;
+  /* width: 80px; */
+  color:#fff;
+}
+.weaknesses-list li:nth-child(4){
+  background-color:rgb(246, 24, 75);
+  border-radius: 3px;
+  /* width: 80px; */
+  color:#fff;
+}
